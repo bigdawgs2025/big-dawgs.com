@@ -27,8 +27,25 @@
       font-size: 2.5em;
       margin-bottom: 10px;
     }
-    a.back {
+    .swipe-button {
       display: inline-block;
+      background: #ff3366;
+      color: white;
+      padding: 12px 24px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 20px;
+      box-shadow: 0 4px 12px rgba(255, 0, 77, 0.3);
+      transition: transform 0.2s ease;
+      text-decoration: none;
+    }
+    .swipe-button:hover {
+      transform: scale(1.05);
+    }
+    .back {
+      display: block;
       margin-top: 40px;
       text-decoration: none;
       color: #0077cc;
@@ -42,15 +59,18 @@
   <p>Boat days are better with Peyton at the helm. Catch her navigating tides and turning heads — all while repping the stars and stripes.</p>
 
   <img src="peyton2.jpg" alt="Peyton thumbs up">
-  <p>Low maintenance, high vibes. Bonus points for duct tape. She’s got grit, charm, and a solid meme game.</p>
-
-  <img src="peyton4.jpg" alt="Peyton in ski gear">
-  <p>Mystery on the mountain. Is it Peyton, or a snow ninja with elite slope game? You may never know.</p>
+  <p>Low maintenance, high vibes. Bonus points for duct tape. She’s got grit, charm, and a top-tier meme game.</p>
 
   <img src="peyton3.jpg" alt="Peyton at a party">
-  <p>Peyton lights up every room — and sometimes the whole sorority wall. Certified GLOW Queen.</p>
+  <p>Peyton lights up every room — and sometimes the whole sorority wall. Certified GLOW Queen with unmatched party presence.</p>
+
+  <img src="peyton4.jpg" alt="Peyton in ski gear">
+  <p>Slope style meets snow ninja. Peyton keeps it chill on the mountain but might ski straight into your heart.</p>
+
+  <a href="#" class="swipe-button" onclick="alert('You matched with Peyton! Court is now in session.')">💘 Swipe to Court</a>
 
   <a href="index.html" class="back">← Back to Home</a>
 </body>
 </html>
+
 
